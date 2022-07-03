@@ -1,20 +1,20 @@
-include <stdio.h>
-
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
 /**
-  * main - Prints the numbers since 0 to 9
-  *
-  * Return: Always (Success)
-  */
+*main- entry point
+*Description: Alphabets
+*Return: zero on success
+*/
 int main(void)
 {
-	int n;
+	int num = 0;
 
-	for (n = '0'; n <= '9'; n++)
+	while (num <= 9)
 	{
-		putchar(n);
+		putchar(num + '0');
+		num++;
 	}
-
 	putchar('\n');
-
 	return (0);
 }
