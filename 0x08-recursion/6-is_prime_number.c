@@ -1,5 +1,4 @@
-lines (29 sloc)  552 Bytes
- #include "main.h"
+#include "main.h"
 /**
 * is_prime_number - returns true if the number is prime
 *@n: the number to check
